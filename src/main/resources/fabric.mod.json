@@ -3,13 +3,13 @@
 	"id": "emerald-tools",
 	"version": "${version}",
 	"name": "Emerald tools",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "A mod that adds emerald tools and weapons to Minecraft!",
 	"authors": [
-		"Me!"
+		"Toy085"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "",
+		"sources": ""
 	},
 	"license": "CC0-1.0",
 	"icon": "assets/emerald-tools/icon.png",
