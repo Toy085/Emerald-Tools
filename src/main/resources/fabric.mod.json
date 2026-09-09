@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "emerald_tools",
+  "version": "${version}",
+  "name": "Emerald Tools",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "All-Rights-Reserved",
+  "icon": "assets/emerald_tools/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "fabric-datagen": [
+      "org.toy085.emerald_tools.client.Emerald_toolsDataGenerator"
+    ],
+    "client": [
+      "org.toy085.emerald_tools.client.Emerald_toolsClient"
+    ],
+    "main": [
+      "org.toy085.emerald_tools.Emerald_tools"
+    ]
+  },
+  "mixins": [
+    "emerald_tools.mixins.json",
+    {
+      "config": "emerald_tools.client.mixins.json",
+      "environment": "client"
+    }
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
