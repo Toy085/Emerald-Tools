@@ -1,35 +1,34 @@
 {
-  "schemaVersion": 1,
-  "id": "emerald_tools",
-  "version": "${version}",
-  "name": "Emerald Tools",
-  "description": "",
-  "authors": [],
-  "contact": {},
-  "license": "All-Rights-Reserved",
-  "icon": "assets/emerald_tools/icon.png",
-  "environment": "*",
-  "entrypoints": {
-    "fabric-datagen": [
-      "org.toy085.emerald_tools.client.Emerald_toolsDataGenerator"
-    ],
-    "client": [
-      "org.toy085.emerald_tools.client.Emerald_toolsClient"
-    ],
-    "main": [
-      "org.toy085.emerald_tools.Emerald_tools"
-    ]
-  },
-  "mixins": [
-    "emerald_tools.mixins.json",
-    {
-      "config": "emerald_tools.client.mixins.json",
-      "environment": "client"
-    }
-  ],
-  "depends": {
-    "fabricloader": ">=${loader_version}",
-    "fabric-api": "*",
-    "minecraft": "${minecraft_version}"
-  }
+	"schemaVersion": 1,
+	"id": "emerald-tools",
+	"version": "${version}",
+	"name": "Emerald tools",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/emerald-tools/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.toy085.EmeraldTools"
+		],
+		"fabric-datagen": [
+			"com.toy085.EmeraldToolsDataGenerator"
+		]
+	},
+	"mixins": [
+		"emerald-tools.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.5",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
 }
