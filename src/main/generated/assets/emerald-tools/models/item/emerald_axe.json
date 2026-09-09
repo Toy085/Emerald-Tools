@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "emerald-tools:item/delete"
+    "layer0": "emerald-tools:item/emerald_axe"
   }
 }
