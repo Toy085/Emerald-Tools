@@ -14,7 +14,7 @@ import net.minecraft.world.item.Item;
 import java.util.function.Function;
 
 public class ModItems {
-    public static  final Item Emerald_Axe = registerItem("emerald_axe", properties -> new AxeItem(ModToolMaterials.EMERALD_TOOL_MATERIAL, 3f, -2.4f, properties));
+    public static  final Item Emerald_Axe = registerItem("emerald_axe", properties -> new AxeItem(ModToolMaterials.EMERALD_TOOL_MATERIAL, 6f, -3.2f, properties));
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(EmeraldTools.MOD_ID, name),
