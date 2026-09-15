@@ -1,0 +1,33 @@
+{
+  "parent": "emerald-tools:emerald-tools/root",
+  "criteria": {
+    "has_emerald-axe": {
+      "conditions": {
+        "items": [
+          {
+            "items": "emerald-tools:emerald_axe"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "description": {
+      "translate": "advancement.emerald-tools.emerald-axe.description"
+    },
+    "icon": {
+      "id": "emerald-tools:emerald_axe"
+    },
+    "title": {
+      "translate": "advancement.emerald-tools.emerald-axe.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_emerald-axe"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

@@ -1,0 +1,34 @@
+{
+  "criteria": {
+    "has_emerald": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:emerald"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "display": {
+    "announce_to_chat": false,
+    "background": "minecraft:gui/advancements/backgrounds/stone",
+    "description": {
+      "translate": "advancement.emerald-tools.root.description"
+    },
+    "icon": {
+      "id": "minecraft:emerald"
+    },
+    "show_toast": false,
+    "title": {
+      "translate": "advancement.emerald-tools.root.title"
+    }
+  },
+  "requirements": [
+    [
+      "has_emerald"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

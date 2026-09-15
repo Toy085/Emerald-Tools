@@ -1,5 +1,6 @@
 package com.toy085;
 
+import com.toy085.datagen.ModAdvancementsProvider;
 import com.toy085.datagen.ModModelProvider;
 import com.toy085.datagen.ModRecipeProvider;
 import net.fabricmc.fabric.api.datagen.v1.DataGeneratorEntrypoint;
@@ -12,5 +13,6 @@ public class EmeraldToolsDataGenerator implements DataGeneratorEntrypoint {
 
 		pack.addProvider(ModModelProvider::new);
 		pack.addProvider(ModRecipeProvider::new);
+		pack.addProvider(ModAdvancementsProvider::new);
 	}
 }
