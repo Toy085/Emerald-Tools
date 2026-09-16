@@ -1,5 +1,7 @@
 // 26.2	-999999999-01-01T00:00:00	Emerald tools/EmeraldTools Recipes
 e755e6c941d34cc6143a7c35eb1d1d75043c6a45 data/emerald-tools/advancement/recipes/combat/emerald_sword.json
 5b3e0d360019ee79dfdd7c79bf8068e9eab62499 data/emerald-tools/advancement/recipes/tools/emerald_axe.json
+df5658666f71315344c794499a9d83136c34e081 data/emerald-tools/advancement/recipes/tools/emerald_pickaxe.json
 6fc46402dfa7b65aee8d5a31035c3a26c7b47c01 data/emerald-tools/recipe/emerald_axe.json
+48696780dc86acef72aa017306e0ff7bb816d83e data/emerald-tools/recipe/emerald_pickaxe.json
 65995a1acc507efb1ad54b69cf232d354d95eb0d data/emerald-tools/recipe/emerald_sword.json

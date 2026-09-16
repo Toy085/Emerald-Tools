@@ -16,6 +16,7 @@ import java.util.function.Function;
 public class ModItems {
     public static  final Item Emerald_Axe = registerItem("emerald_axe", properties -> new AxeItem(ModToolMaterials.EMERALD_TOOL_MATERIAL, 6f, -3.2f, properties));
     public static final Item Emerald_Sword = registerItem("emerald_sword", properties -> new Item(properties.sword(ModToolMaterials.EMERALD_TOOL_MATERIAL, 3f, -2.4f)));
+    public static final Item Emerald_Pickaxe = registerItem("emerald_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.EMERALD_TOOL_MATERIAL, 1f, -2.8f)));
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(EmeraldTools.MOD_ID, name),
@@ -27,5 +28,6 @@ public class ModItems {
 
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(output -> {output.accept(Emerald_Axe);});
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register(output -> {output.accept(Emerald_Sword);});
+        CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.TOOLS_AND_UTILITIES).register(output -> {output.accept(Emerald_Pickaxe);});
     }
 }

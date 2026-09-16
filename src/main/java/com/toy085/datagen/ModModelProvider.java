@@ -23,5 +23,6 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateItemModels(ItemModelGenerators itemModelGenerators) {
         itemModelGenerators.generateFlatItem(ModItems.Emerald_Axe, ModelTemplates.FLAT_ITEM);
         itemModelGenerators.generateFlatItem(ModItems.Emerald_Sword, ModelTemplates.FLAT_ITEM);
+        itemModelGenerators.generateFlatItem(ModItems.Emerald_Pickaxe, ModelTemplates.FLAT_ITEM);
     }
 }

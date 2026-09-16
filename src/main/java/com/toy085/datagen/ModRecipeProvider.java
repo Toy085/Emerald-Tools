@@ -31,11 +31,19 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
                         .save(output);
                 shaped(RecipeCategory.COMBAT, ModItems.Emerald_Sword)
-                    .pattern(" E")
+                        .pattern(" E")
                         .pattern(" E")
                         .pattern(" S")
                         .define('S', Items.STICK)
                         .define('E', Items.EMERALD)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .save(output);
+                shaped(RecipeCategory.TOOLS, ModItems.Emerald_Pickaxe)
+                        .pattern("EEE")
+                        .pattern(" S ")
+                        .pattern(" S ")
+                        .define('E', Items.EMERALD)
+                        .define('S', Items.STICK)
                         .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
                         .save(output);
             }
