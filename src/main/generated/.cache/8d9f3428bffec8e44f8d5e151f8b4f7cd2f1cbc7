@@ -1,7 +1,9 @@
 // 26.2	-999999999-01-01T00:00:00	Emerald tools/Model Definitions
 e604c4047174e3e2b2628b0484e74c4898724bee assets/emerald-tools/items/emerald_axe.json
 a09576aafb5b605b796c7921179024ee515e2dde assets/emerald-tools/items/emerald_pickaxe.json
+cbe55f84d5da84dc0ca509791e8fa04efb458281 assets/emerald-tools/items/emerald_shovel.json
 300ea6ed0fc9f61fedf9256569ef83ce5b295350 assets/emerald-tools/items/emerald_sword.json
 37a2fad84c5c8a232dee4ab1dccfec8ae6c73c15 assets/emerald-tools/models/item/emerald_axe.json
 b1b2ff9ccd1e47c36e27268b5b57e3e5f3472abe assets/emerald-tools/models/item/emerald_pickaxe.json
+e718d2b3c18c60736d34a29902d566b2eb00fc1c assets/emerald-tools/models/item/emerald_shovel.json
 daabced02a366c65e4e6a0e5c8e5a85dd3b8c70e assets/emerald-tools/models/item/emerald_sword.json
