@@ -17,6 +17,7 @@ public class ModItems {
     public static final Item Emerald_Pickaxe = registerItem("emerald_pickaxe", properties -> new Item(properties.pickaxe(ModToolMaterials.EMERALD_TOOL_MATERIAL, 1f, -2.8f)));
     public static final Item Emerald_Shovel = registerItem("emerald_shovel", properties -> new ShovelItem(ModToolMaterials.EMERALD_TOOL_MATERIAL, 3f, -2.4f, properties));
     public static final Item Emerald_Hoe = registerItem("emerald_hoe", properties -> new HoeItem(ModToolMaterials.EMERALD_TOOL_MATERIAL, 0f, -3.0f, properties));
+    public static final Item Emerald_Spear = registerItem("emerald_spear", properties -> new Item(properties.spear(ModToolMaterials.EMERALD_TOOL_MATERIAL, 0.95f, 0.95f, 0.7f, 2.5f, 120f, 8f, 5.1f, 12.0f, 4.6f)));
 
     private static Item registerItem(String name, Function<Item.Properties, Item> function) {
         return Registry.register(BuiltInRegistries.ITEM, Identifier.fromNamespaceAndPath(EmeraldTools.MOD_ID, name),
@@ -35,6 +36,7 @@ public class ModItems {
         CreativeModeTabEvents.modifyOutputEvent(CreativeModeTabs.COMBAT).register(output -> {
             output.insertAfter(Items.GOLDEN_SWORD, Emerald_Sword);
             output.insertAfter(Items.GOLDEN_AXE, Emerald_Axe);
+            output.insertAfter(Items.GOLDEN_SPEAR, Emerald_Spear);
         });
     }
 }

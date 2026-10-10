@@ -1,4 +1,5 @@
 // 26.2	-999999999-01-01T00:00:00	Emerald tools/EmeraldTools Recipes
+8a991e593142424b929a5bf913d68bf260c577a6 data/emerald-tools/advancement/recipes/combat/emerald_spear.json
 e755e6c941d34cc6143a7c35eb1d1d75043c6a45 data/emerald-tools/advancement/recipes/combat/emerald_sword.json
 5b3e0d360019ee79dfdd7c79bf8068e9eab62499 data/emerald-tools/advancement/recipes/tools/emerald_axe.json
 524e0f6d0cdd77e862dfd8ff95da6288a1e10619 data/emerald-tools/advancement/recipes/tools/emerald_hoe.json
@@ -8,4 +9,5 @@ f9bbdad99ffd5309f1e8b6e24b74c81928213ee5 data/emerald-tools/advancement/recipes/
 39353b693eb4ff265d96e76dd41edbccc6df0b26 data/emerald-tools/recipe/emerald_hoe.json
 48696780dc86acef72aa017306e0ff7bb816d83e data/emerald-tools/recipe/emerald_pickaxe.json
 1cb41071e4588fc4d08f40c70dae25cfbd8b5d0c data/emerald-tools/recipe/emerald_shovel.json
+0b613cb84d0cf0c3cabf528b5cf328b8cc5b2b1e data/emerald-tools/recipe/emerald_spear.json
 65995a1acc507efb1ad54b69cf232d354d95eb0d data/emerald-tools/recipe/emerald_sword.json

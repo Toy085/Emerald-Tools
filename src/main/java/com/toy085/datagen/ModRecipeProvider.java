@@ -62,6 +62,14 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         .define('S', Items.STICK)
                         .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
                         .save(output);
+                shaped(RecipeCategory.COMBAT, ModItems.Emerald_Spear)
+                        .pattern("  E")
+                        .pattern(" S ")
+                        .pattern("S  ")
+                        .define('E', Items.EMERALD)
+                        .define('S', Items.STICK)
+                        .unlockedBy(getHasName(Items.EMERALD), has(Items.EMERALD))
+                        .save(output);
             }
         };
     }
